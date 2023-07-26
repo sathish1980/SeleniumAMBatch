@@ -12,7 +12,10 @@ public class FirstClass {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
-		WebElement username = driver.findElement(By.id("email"));
+		//WebElement username = driver.findElement(By.id("email"));
+		//WebElement username = driver.findElement(By.cssSelector("input#email"));
+		WebElement username = driver.findElement(By.cssSelector("input[data-testid='royal_email']"));
+		
 		username.sendKeys("sathish");
 		username.clear();
 		driver.findElement(By.id("email")).sendKeys("Kumar");
