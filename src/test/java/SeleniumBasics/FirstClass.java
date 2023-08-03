@@ -18,9 +18,9 @@ public class FirstClass {
 		
 		username.sendKeys("sathish");
 		username.clear();
-		driver.findElement(By.id("email")).sendKeys("Kumar");
-		driver.findElement(By.name("email")).sendKeys("besant");
-		
+		//driver.findElement(By.id("email")).sendKeys("Kumar");
+		//driver.findElement(By.name("email")).sendKeys("besant");
+		driver.findElement(By.xpath("//input[@data-testid='royal_email']")).sendKeys("xpathvalue");
 		//driver.findElement(By.className("inputtext _55r1 _6luy")).sendKeys("hi");
 		//driver.findElement(By.linkText("Forgotten password?")).click();
 		driver.findElement(By.partialLinkText("pass")).click();
