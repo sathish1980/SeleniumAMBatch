@@ -66,14 +66,41 @@ public class CheckboxandRadioButton {
 				break;
 			}
 		}
+	}
+	}
+	
+	public void radiobutton(String expectedgenderName)
+	{
+		EdgeOptions options = new EdgeOptions();
+		//options.addArguments("start-maximized");
+		//options.addArguments("--disable-Notifications");
+
+		WebDriver browser = new EdgeDriver(options);
+		browser.get("https://www.facebook.com/");
+		browser.manage().window().maximize();
+		
+		// implicity wait
+		browser.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+		browser.findElement(By.xpath("//*[@data-testid='open-registration-form-button']")).click();
+		List<WebElement> eachGender = browser.findElements(By.xpath("//*[contains(@class,'_5k_2')]"));
+	
+		for(int i=1;i<=eachGender.size();i++)
+		{
+			String genderName = browser.findElement(By.xpath("//*[contains(@class,'_5k_2')]["+i+"]//label")).getText();
+			if(expectedgenderName.equalsIgnoreCase(genderName))
+			{
+				browser.findElement(By.xpath("//*[contains(@class,'_5k_2')]["+i+"]//input")).click();
+				break;
+			}
 		}
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		CheckboxandRadioButton c = new CheckboxandRadioButton();
-		c.checkbox();
-		String[] lan = {"python","others"};
-		c.launguage(lan);
+		//c.checkbox();
+		//String[] lan = {"python","others"};
+		//c.launguage(lan);
+		c.radiobutton("Custom");
 	}
 
 }
