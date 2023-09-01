@@ -145,7 +145,7 @@ public class ElementUtils
 	
 	public void ClearPopups(WebDriver driver) throws InterruptedException
 	{
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		List<WebElement> AllFrames =driver.findElements(By.tagName("iframe"));
 		for(int i=0;i<AllFrames.size();i++)
 		{

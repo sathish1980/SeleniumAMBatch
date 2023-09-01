@@ -9,7 +9,7 @@
           <include name="TearDown"/>
           <include name="ClearAdd"/>
           <include name="LaunchTheURL"/>
-          <include name="SearchWithValidValues"/>
+          <include name="SearchWithValidValues" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- TestCase.SearchTestcase -->
     </classes>
