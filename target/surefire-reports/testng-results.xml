@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69619" started-at="2023-09-05T09:02:15 IST" finished-at="2023-09-05T09:03:25 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="69619" started-at="2023-09-05T09:02:15 IST" finished-at="2023-09-05T09:03:25 IST">
+      <class name="TestCase.SearchTestcase">
+        <test-method status="PASS" signature="LauchTheBrowser()[pri:0, instance:TestCase.SearchTestcase@38bc8ab5]" name="LauchTheBrowser" is-config="true" duration-ms="3269" started-at="2023-09-05T09:02:12 IST" finished-at="2023-09-05T09:02:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LauchTheBrowser -->
+        <test-method status="PASS" signature="LaunchTheURL()[pri:0, instance:TestCase.SearchTestcase@38bc8ab5]" name="LaunchTheURL" is-config="true" duration-ms="3363" started-at="2023-09-05T09:02:15 IST" finished-at="2023-09-05T09:02:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheURL -->
+        <test-method status="PASS" signature="ClearAdd()[pri:0, instance:TestCase.SearchTestcase@38bc8ab5]" name="ClearAdd" is-config="true" duration-ms="1892" started-at="2023-09-05T09:02:19 IST" finished-at="2023-09-05T09:02:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearAdd -->
+        <test-method status="PASS" signature="SearchWithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCase.SearchTestcase@38bc8ab5]" name="SearchWithValidValues" duration-ms="21085" started-at="2023-09-05T09:02:21 IST" data-provider="ValidTestCase" finished-at="2023-09-05T09:02:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DEL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidValues -->
+        <test-method status="PASS" signature="SearchWithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCase.SearchTestcase@38bc8ab5]" name="SearchWithValidValues" duration-ms="13466" started-at="2023-09-05T09:02:42 IST" data-provider="ValidTestCase" finished-at="2023-09-05T09:02:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BOM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidValues -->
+        <test-method status="PASS" signature="SearchWithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCase.SearchTestcase@38bc8ab5]" name="SearchWithValidValues" duration-ms="12005" started-at="2023-09-05T09:02:55 IST" data-provider="ValidTestCase" finished-at="2023-09-05T09:03:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BKK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HYD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidValues -->
+        <test-method status="PASS" signature="SearchWithSameCity(java.lang.String,java.lang.String)[pri:2, instance:TestCase.SearchTestcase@38bc8ab5]" name="SearchWithSameCity" duration-ms="6009" started-at="2023-09-05T09:03:07 IST" data-provider="searchWithInValid" finished-at="2023-09-05T09:03:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithSameCity -->
+        <test-method status="PASS" signature="SearchWithSameCity(java.lang.String,java.lang.String)[pri:2, instance:TestCase.SearchTestcase@38bc8ab5]" name="SearchWithSameCity" duration-ms="5755" started-at="2023-09-05T09:03:13 IST" data-provider="searchWithInValid" finished-at="2023-09-05T09:03:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BOM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BOM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithSameCity -->
+        <test-method status="PASS" signature="SearchWithSameCity(java.lang.String,java.lang.String)[pri:2, instance:TestCase.SearchTestcase@38bc8ab5]" name="SearchWithSameCity" duration-ms="5766" started-at="2023-09-05T09:03:19 IST" data-provider="searchWithInValid" finished-at="2023-09-05T09:03:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DEL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithSameCity -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCase.SearchTestcase@38bc8ab5]" name="TearDown" is-config="true" duration-ms="2120" started-at="2023-09-05T09:03:25 IST" finished-at="2023-09-05T09:03:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCase.SearchTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

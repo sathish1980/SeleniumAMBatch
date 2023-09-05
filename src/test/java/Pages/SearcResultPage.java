@@ -12,12 +12,11 @@ public class SearcResultPage extends ElementUtils {
 
 	@FindBy (xpath = "//*[contains(@class,'journey-title')]//span")
 	WebElement searchTextElement;
-	
-	String searchTextElementBy = "//*[contains(@class,'journey-title')]//span";
-	
 	@FindBy (xpath="(//div[@class='overlay']//span)[1]")
 	WebElement okGotItElement;
-	String okGotItElementBy ="(//div[@class='overlay']//span)[1]";
+	
+	private String searchTextElementBy = "//*[contains(@class,'journey-title')]//span";
+	private String okGotItElementBy ="(//div[@class='overlay']//span)[1]";
 	
 	WebDriver driver;
 	
